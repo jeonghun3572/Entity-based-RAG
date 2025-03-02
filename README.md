@@ -4,6 +4,8 @@ This is the implementation of the following paper:
 
 > **Medical Domain Retrieval-Augmented Question Answering through Entity-based Context Extraction** [[Paper](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11861871)]
 
+개체명 기반 컨텍스트 추출을 통한 의료 분야 검색 증강 질의응답 시스템
+
 <p align="center"><img src="figs/main.png" style="width: 80%; height: auto;"></p>
 <p align="center">The overview of training.</p>
 
