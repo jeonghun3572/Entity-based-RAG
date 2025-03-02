@@ -1,0 +1,15 @@
+python train-enc_dec.py \
+    --train_data ./datasets/medquad-merge/train_medquad-merge-description-process-tag.json \
+    --eval_data ./datasets/medquad-merge/val_medquad-merge-description-process-tag.json \
+    --per_device_train_batch_size 8 \
+    --gradient_accumulation_steps 1 \
+    --per_device_eval_batch_size 1 \
+    --num_train_epochs 10 \
+    --lr 3e-6 \
+    --loss1_factor 1\
+    --loss2_factor 1\
+    --log_freq 1000 \
+    --output_dir ./checkpoint/medquad-description/bart-enc_dec \
+    --wandb_proj medquad-description \
+    --wandb_run_name bart-enc_dec \
+    --wandb_run True \
